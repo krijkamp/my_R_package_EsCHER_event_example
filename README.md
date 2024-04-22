@@ -1,51 +1,46 @@
 # eschereventpackage
 
-`eschereventpackage` is an R package designed to [briefly describe what your package does, e.g., "facilitate temperature conversion between Fahrenheit and Celsius"].
+`eschereventpackage` is an R package designed to demonstrate how to create a package. The functions facilitate temperature conversion between Fahrenheit and Celsius. 
 
 ## Installation
 
-You can install `PackageName` from CRAN using:
-
-```R
-install.packages("PackageName")
-```
-
-Or, install the latest development version from GitHub:
+You can install `eschereventpackage` from GitHub:
 
 ```R
 # if you don't have the devtools package installed, install it first
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 
-devtools::install_github("username/PackageName")
+devtools::install_github("krijkamp/my_R_package_EsCHER_event_example")
 ```
 
 ## Usage
 
-To use `PackageName`, load it into your R environment:
+To use `eschereventpackage`, load it into your R environment:
 
 ```R
-library(PackageName)
+library(eschereventpackage)
 ```
 
 ### Example
 
-Here is a simple example using `PackageName`:
+Here is a simple example using `eschereventpackage`:
 
 ```R
-# Example function usage
-result <- functionName(inputParameters)
-print(result)
+#
+convert_Fahrenheid_to_Celsius(45)
 ```
 
 ## Contributing
 
-Contributions to `PackageName` are welcome via pull requests and issues on the GitHub repository.
+Contributions to `eschereventpackage` are welcome via pull requests and issues on the GitHub repository.
 
 ## License
 
-`PackageName` is released under the [choose a license, e.g., MIT License](LICENSE).
+`eschereventpackage` is free for reuse use
+
+## Acknowledgement
+Inspired by the tutorial published by Brad Duthie (see [here](https://ourcodingclub.github.io/tutorials/writing-r-package/#github)), which is part of the Coding Club.
+
 
 ---
-
-This README provides a basic structure, covering the package's purpose, installation instructions, usage examples, and sections inviting contributions and referencing the license under which the package is released. Adjust the content according to the specifics of your package and GitHub repository settings.
