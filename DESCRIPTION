@@ -1,6 +1,11 @@
 Package: eschereventpackage
 Type: Package
-Title: Temperature Conversion Package for Demonstration
-Version: 0.0.1.0
-RoxygenNote: 7.3.1
+Title: This is the example code for the EsCHER event workshop
+Version: 0.1.0
+Author: Eline Krijkamp
+Maintainer: Eline Krijkamp <krijkamp@eshpm.eur.nl>
+Description: This package has two functions to convert temperatures
+License: GNU GPLv3
 Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
